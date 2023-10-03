@@ -1,0 +1,13 @@
+body{
+    background-color: blueviolet;
+}
+p{
+    background-color: brown;
+}
+a{
+    background-color: yellow;
+}
+*{
+    background-color: green;
+    
+}
