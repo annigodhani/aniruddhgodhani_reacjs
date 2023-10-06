@@ -1,0 +1,9 @@
+.Image
+{
+    background-image: url("Image/Bird Of Prey.jpg");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: right; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

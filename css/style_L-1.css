@@ -1,13 +1,62 @@
-body{
+body
+{
     background-color: blueviolet;
 }
-p{
+
+p
+{
     background-color: brown;
 }
-a{
+
+a
+{
     background-color: yellow;
 }
-*{
+
+/* *{
     background-color: green;
     
+} */
+
+span
+{
+    background-color: aquamarine;
+}
+
+div 
+{
+    background-color: darkkhaki;
+}
+
+q
+{
+    background-color: darkslategrey;
+}
+
+section div
+{
+    background-color: peru;
+}
+
+a  
+{
+    background-color: cornflowerblue;
+}
+
+.para-1
+{
+    color: rgb(3, 246, 181);
+}
+
+h1
+{
+    color: rgb(210, 246, 181);
+}
+
+body
+{
+    background-image: url('Image/big.jpg');
+    background-repeat: no-repeat;
+    /* background-clip: inherit; */
+    background-position: center;
 }
