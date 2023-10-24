@@ -1,0 +1,165 @@
+body
+{
+   margin: 0;
+}
+    
+* {
+     box-sizing: border-box;
+}
+    
+    /* Css Online/Offline Font */
+    
+    p 
+    {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    /* css display properties */
+    
+    .d-none{
+        height: 500px;
+        width: 500px;
+        background-color: green;
+        display: none;
+        visibility:hidden;
+    }
+    
+    .d-inline-1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border:2px solid yellow;
+    display:inline-block;
+    }
+    
+    .display{
+        display: table;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    /* css flex-properties */
+    
+    .maindiv
+     {
+        height: 700px;
+        max-width: 700px;
+        border: 2px solid black;
+        background-color: gray;
+        display: flex;
+    }
+    
+    .maindiv div
+    {
+        flex-basis: 100px;
+    }
+    
+    .div-1 
+    {
+        flex-shrink: 20;
+        background-color: red;
+    
+    }
+    
+    .div-2 
+    {
+        background-color: rgb(254, 212, 0);
+    
+    }
+    
+    .div-3 
+    {
+        background-color: rgb(36, 164, 0);
+    
+    }
+    
+    .div-4 
+    {
+        background-color: rgb(0, 166, 227);
+    
+    }
+    
+    .div-5 
+    {
+        background-color: rgb(0, 10, 205);
+    
+    }
+    
+    .div-6 
+    {
+        background-color: rgb(192, 0, 199);
+    
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+    
+    /* css online font */
+    
+    
+    
+    
+    /* css offline font */
+    
+    
+    
+    /* css display properties */
+    
+    
+    /* css flex-properties */
+    
+    .maindiv
+    {
+        height: 700px;
+        max-width: 1500px;
+        border:2px solid black;
+        background-color: gray;
+        display: flex;
+    }
+
+    .maindiv div
+    {
+        /* flex-grow: 1; */
+        flex-basis: 300px;
+    }
+
+    .div-1
+    {
+        flex-shrink: 3;
+        background-color: red;
+    
+    }
+
+    .div-2
+    {
+        flex-shrink: 3;
+        background-color: rgb(254, 212, 0);
+    
+    }
+
+    .div-3
+    {
+        background-color: rgb(36, 164, 0);
+    
+    }
+
+    .div-4
+    {
+        background-color: rgb(0, 166, 227);
+    
+    }
+
+    .div-5
+    {
+        background-color: rgb(0, 10, 205);
+    
+    }
+
+    .div-6
+    {
+        background-color: rgb(192, 0, 199);
+    
+    }

@@ -1,10 +1,12 @@
-body{
+body
+{
     margin: 0;
 }
 
 /* accent-color*/
 
-/* input{
+/* input
+{
     accent-color: red;
 } */
 
@@ -22,41 +24,49 @@ body{
 
 */
 
-/* ::placeholder{
+/* ::placeholder
+{
     color:red;
     background-color: green;
 } */
 
-input:focus{
+input:focus
+{
     /* border:2px solid green; */
     /* outline:2px solid green; */
     outline: none;
     border:none;
 }
 
-input:hover{
+input:hover
+{
     /* border:2px solid green; */
-    /* outline:2px solid green; */
+    /* outline :2px solid green; */
     outline: none;
     border:none;
 }
 
-/* input:invalid{
+input:invalid
+{ 
     background-color: red;
-}
-input:valid{
+} 
+
+input:valid
+{
     background-color: green;
 }
 
-ul li::marker{
+ul li::marker
+{
     color:red;
     font-size: 50px;
 }
 
-ol li::marker{
+ol li::marker
+{
     color:red;
     font-size: 50px;
-} */
+}
 
 
 
@@ -68,27 +78,33 @@ ol li::marker{
 
 */
 
-/* p:read-only{
+p:read-only
+{
     background-color: blue;
 }
 
-textarea:read-write{
+textarea:read-write
+{
     color:yellow;
 }
 
-:root{
+:root
+{
     --color-1:red;
     --color-2:green;
 }
 
-.box{
+.box
+{
     height: 200px;
     width: 200px;
     background-color: var(--color-2);
 }
-:lang(en){
-    background-color: red;
-} */
+
+:lang(en)
+{
+    background-color: Pink;
+}
 
 /* css pseudo class */
 
@@ -113,7 +129,8 @@ textarea:read-write{
 
 */
 
-h1:nth-of-type(15){
+h1:nth-of-type(15)
+{
     background-color: green;
     color:red;
 }
@@ -147,7 +164,8 @@ h1:nth-of-type(15){
 
 /* css after and before */
 
-.box a::after{
+.box a::after
+{
     content: " ";
     background-color: red;
     height: 20px;
@@ -155,9 +173,61 @@ h1:nth-of-type(15){
     position: absolute;
 }
 
-p::selection{
+p::selection
+{
     color:green;
     background-color: red;
     text-decoration: underline;
 }
 
+*
+{ 
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+/* css online font */
+
+p
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+/* css offline font */
+
+
+
+/* css display properties */
+
+
+/* .box-1 , .box-2 , .box-3  , .box-4  , .box-5
+{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border:2px solid black;   
+}
+
+.mainbox
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+}
+
+
+span
+{
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+    margin: 50px;
+    /* display: inline-block; 
+} */
