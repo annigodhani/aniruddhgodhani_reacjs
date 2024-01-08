@@ -1,0 +1,117 @@
+body
+{
+    background-color: gray;
+}
+
+h1:nth-child(6)
+{
+    background-color: brown;
+    color: yellow;
+}
+
+div nav ul li
+{
+    list-style: none;
+}
+
+ h1:only-of-type 
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ h1:nth-child(19)
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ h1:nth-child(22) 
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ section h1:nth-child(5)
+ {
+    background-color: brown;
+    color: yellow; 
+ }
+
+   h1[class]:nth-child(1)
+ {
+    background-color: brown;
+    color: yellow; 
+ }
+
+ h1[div]:first-child 
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ span p:only-child
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+  span p:nth-child(2)
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ div div div h1:last-child
+ {
+    background-color: brown;
+    color: yellow; 
+ }
+ 
+a:first-child
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ a:nth-child(7)
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ input:only-of-type
+ {
+    background-color: brown;
+    color: yellow;
+ }
+
+ h1:nth-child(13)
+ {
+    background-color: brown;
+    color: yellow; 
+ }
+
+ h1:nth-child(14)
+ {
+    background-color: brown;
+    color: yellow; 
+ }
+ 
+ div:nth-child(18) div:nth-of-type(1) h1:first-child
+{
+    background-color: brown;
+    color: yellow; 
+ }
+
+div:nth-child(12) h1:nth-child(2)
+{
+    background-color: brown;
+    color: yellow; 
+ }
+
+ h1:nth-last-child(22)
+{
+    background-color: brown;
+    color: yellow; 
+ }

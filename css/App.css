@@ -243,11 +243,11 @@
     margin-left: 120px;
 }
 
-.tp-slider-btn .tp-btn {
+/* .tp-btn .tp-btn {
     animation-delay: .9s;
     animation-duration: 1s;
     border: 1px solid var(--tp-common-white);
-}
+} */
 
 .tp-btn-white {
     color: black;
@@ -284,8 +284,8 @@
 }
 
 .img2 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 200px;
     object-fit: contain;
 }
 
@@ -312,378 +312,6 @@
     text-align: center;
     color: #55585B;
 }
-
-/*  */
-
-/* .head-1 {
-    padding-top: 50px;
-    align-items: center;
-}
-
-.BOXX {
-    display: flex;
-    justify-content: space-between;
-}
-
-.box-2 {
-    height: 100px;
-    width: 280px;
-    background-color: whitesmoke;
-}
-
-.texxt-1 {
-    text-align: center;
-}
-
-.texx-2 {
-    margin-left: 95px;
-}
-
-.headd {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-}
-
-.arial {
-    font-size: 50px;
-}
-
-.arial1 {
-    font-size: 30px;
-    padding-top: 20px;
-}
-
-.aro {
-    margin-bottom: -115px;
-}
-
-.aro1:hover {
-    color: skyblue;
-}
-
-.immg {
-    display: flex;
-}
-
-.bg-c {
-    height: 400px;
-    width: auto;
-    background-color: whitesmoke;
-    margin-top: 40px;
-}
-
-.tex {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 60px;
-}
-
-.btn {
-    padding: 10px;
-    background-color: #0989ff;
-    color: white;
-}
-
-.ar {
-    align-items: center;
-}
-
-.siz {
-    font-size: 40px;
-} */
-
-/* common css */
-
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    transition: all 0.5s;
-}
-
-.container {
-    max-width: 1050px;
-    margin: auto;
-} */
-
-/* header start */
-/* .bg-top-color {
-    background-color: black;
-}
-
-.topbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0px;
-}
-
-.topbar-text p {
-    color: white;
-}
-
-.top-select {
-    display: flex;
-} */
-
-/* navigationbar start */
-
-/* .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.user-image {
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    border: 2px solid gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.user-image i {
-    font-size: 25px;
-    color: gray;
-}
-
-.user-info {
-    display: flex;
-    align-items: center;
-}
-
-.user-text {
-    margin-left: 10px;
-}
-
-.search-input {
-    border: 2px solid #0989ff;
-    display: flex;
-    align-items: center;
-}
-
-.text-input input {
-    border: 0;
-}
-
-.text-input:focus-within input {
-    border: 0;
-    outline: none;
-}
-
-.navi-select select {
-    border: 0;
-}
-
-.search-icon {
-    background-color: #0989ff;
-    padding: 10px 20px;
-} */
-
-/* Hover Effect in Card View */
-
-/* .card {
-    height: auto;
-    width: 250px;
-    border: 1px solid gray;
-    margin: 100px;
-    overflow: hidden;
-}
-
-.card-image img {
-    object-fit: cover;
-}
-
-.card-image:hover img {
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.card-image {
-    position: relative;
-}
-
-.hover-open-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    bottom: 50px;
-    transition: 1.5s;
-}
-
-.card-image:hover .hover-open-content {
-    display: block;
-    transform: translate(30px);
-}
-
-
-.card-text {
-    padding: 20px 35px;
-    border-top: 1px solid gray
-}
-
- #innerhead2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.head2-dropdown {
-    padding: 8px;
-    font-size: 12px;
-    transition: all 0.3s;
-    font-weight: bold;
-}
-
-.head2-dropdown:hover {
-    color: #0989ff;
-    cursor: pointer;
-}
-
-.allcata {
-    display: flex;
-}
-
-.nav-item {
-    display: flex;
-}
-
-.allCataChild {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 200px;
-    color: white;
-    padding: 8px 0px;
-    background-color: #0989ff;
-    transition: all 0.3s;
-}
-
-.allCataChild:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-.head2-contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.head2-contact div {
-    padding: 0px 5px;
-}
-
-.head2-contact div p {
-    font-size: 12px;
-}
-
-.allcata:hover .head2drop {
-    display: block;
-}
-
-.head2drop {
-    display: none;
-    position: absolute;
-    background-color: white;
-    padding: 10px;
-    width: 200px;
-    border: 1px solid black;
-    top: 35px;
-    z-index: 10;
-}
-
-.allCataList {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px 0px;
-    cursor: pointer;
-}
-
-.allCataList img {
-    width: 30px;
-    height: 30px;
-}
-
-.sideList {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    width: 200px;
-    background-color: white;
-    padding: 10px;
-    border: 1px solid black;
-    display: none;
-}
-
-.sideList li {
-    font-size: 12px;
-    padding: 5px;
-}
-
-.allCataList:hover .sideList {
-    display: block;
-}
-
-
-.best-bg {
-    background-color: #115061;
-    height: 500px;
-}
-
-.mainpart {
-    position: relative;
-}
-
-.bg-desing img {
-    mix-blend-mode: luminosity;
-    opacity: 0.1;
-    position: absolute;
-    right: 0;
-    margin-top: -160px;
-}
-
-.bg-text {
-    font-size: 20px;
-    color: white;
-    position: relative;
-    left: 120px;
-    top: 100px;
-}
-
-.watch {
-    position: absolute;
-    right: 0;
-    margin-top: -500px;
-}
-
-.other-images-1 {
-    position: relative;
-    right: -700px;
-    top: -450px
-}
-
-.other-image-2 {
-    position: relative;
-    top: -425px;
-    left: -32px;
-} */
-
-
-
 
 /* SECTION-1 */
 .part-1 {
@@ -914,6 +542,10 @@
 
 /* MAIN SECTION-2  */
 
+.main_part_name {
+    margin-top: -290px;
+}
+
 .main_part_name h1 {
     color: black;
     font-size: 50px;
@@ -921,7 +553,6 @@
 
 .main_part_name img {
     margin-top: -50px;
-    color: red;
 }
 
 /* 1. wireless */
@@ -1288,7 +919,6 @@
 .main_part_name-1 img {
     position: relative;
     top: 15px;
-    color: red;
 }
 
 .part-3 {
@@ -1400,7 +1030,7 @@
 .part-4 {
     max-height: 950px;
     width: auto;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-flow: row;
@@ -1957,11 +1587,6 @@
     justify-content: space-between;
 }
 
-/* .section-11:hover
-{
-   
-} */
-
 section {
     padding: 80px 13% 70px;
 }
@@ -1971,4 +1596,49 @@ section {
     justify-content: space-between;
     margin-top: 70px;
     line-height: 2;
+}
+
+.img-1 img{
+    border-radius: 5%;
+}
+.img-2 img{
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+.img-3 img{
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+.img-4 img{
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+.img-5 img{
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+.bannerr {
+    background-color: #0989ff;
+    width: auto;
+    height: 200px;
+    
+}
+
+.boy {
+    margin-left: 1200px;
+    margin-top: -500px;
+}
+
+.plan {
+    margin-left: 200px;
+    position: absolute;
+}
+
+.sale {
+    position: absolute;
+    bottom: 100px;
 }

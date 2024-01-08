@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Flip.css">
+</head>
+
+<body>
+    <header>
+        <!-- topbar part -->
+        <div class="bg-top-color">
+            <div class="container">
+                <div class="item">
+                <i class="fa-solid fa-bars" style="color: #eceff3;"></i>
+                <div class="topbar">
+                    <img src="Image/asset 1.png" alt="" class="img">
+                </div>
+                <i class="fa-solid fa-solid-1 fa-cart-shopping" style="color: #f4f6fb;"></i>
+            </div>
+                <div class="_2dxSCm">
+                    <!-- <a href="#/mobile.html#search" class="search-div"> -->
+                        <input type class="_1eMB9R" placeholder="Search for Products, Brands and More" value="">
+                    </a>
+            </div>
+            </div>
+        </div>
+
+        <!-- img part -->
+
+        <img src="Image/asset 2.jpeg" alt="" style="width: 100%;">
+
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="http://gadget.joffersale.store/assets/images/banner1.png" alt="First slide"
+            style="width: 100%;">
+        </div>
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="http://gadget.joffersale.store/assets/images/banner2.png" alt="Second slide"
+            style="width: 100%;">
+        </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="http://gadget.joffersale.store/assets/images/banner3.png" alt="Third slide"
+                style="width: 100%;">
+        </div>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("carousel-item");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); 
+            }
+            </script>
+    </header>
+
+    <!-- deal btn part -->
+
+    <div class="mid">
+    <div class="_3QuZpZ dod-div">
+        <div class="dod-label"> Deals of the Day </div><br>
+        <div class="_1oETR8">
+            <div class="_1dZamR _2mmD4F">
+                <img class="_29lYyb" src="http://gadget.joffersale.store/assets/images/theme/clock.svg">
+                <div id="test">0:5</div>
+            </div>
+        </div>
+    </div>
+    <div class="_3Nxu4r">
+        <button class="_1s54Jm btn-sale-is-live">SALE IS LIVE</button>
+    </div>
+</div>
+
+<!-- main part -->
+
+
+    
+  
+     
+</body>
+
+</html>
+

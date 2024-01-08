@@ -1,0 +1,24 @@
+/* .accordion-item {
+    display: inline-block;
+    width: 300px;
+    
+} */
+
+hr {
+    border: 2px solid red;
+}
+
+.accordion-item-1  {
+    background-color: purple;
+    color:cornsilk;
+    width: 300px;  
+}
+
+#liveAlertPlaceholder{
+    display: inline;
+}
+
+.badge {
+    color: black;
+}
+

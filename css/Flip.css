@@ -1,0 +1,152 @@
+/* common css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* topbar part */
+.container {
+    max-width: 1150px;
+    /* margin: auto; */
+}
+
+.bg-top-color {
+    background-color: blue;
+    height: 125px;
+}
+
+.img {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+.item {
+    display: flex;
+}
+
+.fa-solid {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ .fa-solid-1 {
+    margin-left: 1340px;
+}
+
+._2dxSCm ._1eMB9R {
+    width: 100%;
+    height: 38px;
+    margin-left: 40px;
+    font-size: 14px;
+    border: 0;
+    outline: 1; 
+    padding-left: 20px;
+    margin-top: 10px;   
+}
+
+/* img part */
+/* Slideshow container */
+.carousel-item .active{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.active {
+  animation-name: active;
+  animation-duration: 1.5s;
+}
+
+@keyframes active {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* deal btn par */
+
+.mid {
+    margin-top: 30px;
+}
+._2rW-uM ._3QuZpZ {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    margin-right: 4px;
+}
+.dod-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* -webkit-user-select: none; */
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* user agent stylesheet */
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-sale-is-live {
+    background: #ffffff;
+    color: RED;
+    padding: 10px 12px;
+    font-size: 12px;
+    border-radius: 4px ;
+    text-transform: inherit;
+    box-shadow: white 0 1px 2px 0;  
+    margin-left: 1350px;
+}
+
+._3Nxu4r {
+margin-top: -50px;
+}
+
+._1dZamR {
+   display: flex;
+   padding-left: 5px;
+}
+
+#test {
+    padding-left: 10px; 
+    font-size: 22px;  
+    color: #2873EE;
+}
+
+.dod-label {
+    color: #2873EE;
+    font-size: 22px;  
+}
+
+/* main part */
+
+ 
+
+
