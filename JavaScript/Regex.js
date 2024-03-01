@@ -29,7 +29,7 @@
 // You can also create a regular expression by calling the RegExp() constructor function.
 
 {
-    // const reguarExp = new RegExp('abc')
+    // const regularExp = new RegExp('abc')
 }
 
 {
@@ -90,8 +90,8 @@ You can complement (invert) the character set by using caret ^ symbol at the sta
 /* . - Period */
 
 {
-        const Regex1 = /../
-        console.log(Regex1.test('ax'))
+    const Regex1 = /../
+    console.log(Regex1.test('ax'))
 }
 
 /* ^ - Caret */
@@ -134,18 +134,29 @@ You can complement (invert) the character set by using caret ^ symbol at the sta
 {
     const Regex1 = /(x|y|z)cb/
     console.log(Regex1.test('xcba'))
-    
+
     const Regex2 = /(x|y|z)cb$/
     console.log(Regex2.test('xcba'))
-    
+
     const Regex3 = /(x|y|z)cb+d$/
     console.log(Regex3.test('xcbd'))
-    
+
 }
 
 /* ? - Question Mark */
 
+{
+    let neighbor = /neig?hbou?r/
+    console.log(neighbor.test("neighbour"))
+    console.log(neighbor.test("neihbor"))
+}
+
 /* | - Alternation */
+
+{
+    const Regex = /fg|er/
+    console.log(Regex.test('fgootball'))
+}
 
 /* \ - Backslash */
 
@@ -184,8 +195,14 @@ split()	Break a string into an array of substrings.
 */
 
 {
-    // const regex1 = /^ab/;
-    // const regex2 = new Regexp('/^ab/'); 
+    const regex1 = /^a.../
+    const regex2 = ('abvbvbve')
+    console.log(regex1.test(regex2))
+}
+{
+    const Regex1 = /[0-9]{3,3}/
+    const regex = Regex1.test('12345678910')
+    console.log(regex)
 }
 
 // In JavaScript, you can use regular expressions with RegExp() methods: test() and exec().
@@ -195,26 +212,32 @@ split()	Break a string into an array of substrings.
 // Regular Expressions
 
 {
-    // const string = 'Find me';
-    // const pattern = /me/;
+    const string = 'Find   me'
+    const pattern = ('/me/')
 
-    // // search if the pattern is in string variable
-    // const result1 = string.search(pattern);
-    // console.log(result1); // 5
 
-    // // replace the character with another character
-    // const string1 = 'Find me';
-    // string1.replace(pattern, 'found you'); // Find found you
+    // search if the pattern is in string variable
+    const result1 = string.search(pattern)
+    console.log(result1)
 
-    // // splitting strings into array elements
-    // const regex1 = /[\s,]+/;
-    // const result2 = 'Hello world! '.split(regex1);
-    // console.log(result2); // ['Hello', 'world!', '']
+    // replace the character with another character
+    const string1 = 'Find me'
+    const text = string1.replace(pattern, 'found you') // Find found you
+    console.log(text)
 
-    // // searching the phone number pattern
-    // const regex2 = /(\d{3})\D(\d{3})-(\d{4})/g;
-    // const result3 = regex2.exec('My phone number is: 555 123-4567.');
-    // console.log(result3); // ["555 123-4567", "555", "123", "4567"]
+
+    // splitting strings into array elements
+    const regex1 = /[\s,]+/
+    const result2 = 'Hello world!'.split(regex1);
+    const textt = 'Hello world!'
+    const text2 = textt.split('')
+    console.log(text2)
+    console.log(result2)
+
+    // searching the phone number pattern
+    const regex2 = /(\d{4})\D(\d{4})\D(\d{2})/g
+    const result3 = regex2.exec('My phone number is: 5551 2345 67.')
+    console.log(result3)
 }
 
 // Regular Expression Flags
@@ -224,21 +247,60 @@ split()	Break a string into an array of substrings.
 // Regular Expression Modifier  
 
 {
-    // const string = 'Hello hello hello';
+    const string = `Hello
+     Hello`
 
-    // // performing a replacement
-    // const result1 = string.replace(/hello/, 'world');
-    // console.log(result1); // Hello world hello
+    // performing a replacement
+    const result1 = string.replace(/hello/, 'world')
+    console.log(result1) // Hello world hello
 
-    // // performing global replacement
-    // const result2 = string.replace(/hello/g, 'world');
-    // console.log(result2); // Hello world world
+    // performing global replacement
+    const result2 = string.replace(/hello/g, 'world')
+    console.log(result2) // Hello world world
 
-    // // performing case-insensitive replacement
-    // const result3 = string.replace(/hello/i, 'world');
-    // console.log(result3); // world hello hello
+    // performing case-insensitive replacement
+    const result3 = string.replace(/hello/i, 'world')
+    console.log(result3) // world hello hello
 
     // // performing global case-insensitive replacement
-    // const result4 = string.replace(/hello/gi, 'world');
-    // console.log(result4); // world world world
+    const result4 = string.replace(/hello/i, 'world')
+    console.log(result4) // world world world
 }
+
+/* example@gmail.com */
+const regex1 = /[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,4}/g
+document.write(regex1.test('aniruddhgodhani@gmail.com '))
+
+
+/* 704 610 76 05 */
+const regex = /(\d{3})\D(\d{3})\D(\d{2})\D(\d{2})/
+const result = ('My phone number is: 704 610 76 05.')
+console.log(regex.test(result))
+
+// /* 70 46 10 76 05*/
+const Regex = /(\d{2})\D(\d{2})\D(\d{2})\D(\d{2})/
+const result1 = ('My phone number is: 70 46 10 76 05.')
+console.log(Regex.test(result1))
+
+// /* 7046 1076 05*/
+const Regex1 = /(\d{4})|(\d{4})(\d{2})/
+const result2 = ('My phone number is: 7046 1076 05.')
+console.log(Regex1.test(result2))
+
+// /* 70-46-10-76-05 */
+const Regex2 = /(\d{2})-|\D(\d{2})-(\d{2})-(\d{2})-(\d{2})/
+const result3 =   ('My phone number is: 70-46-10-76-05.')
+console.log(Regex2.test(result3))
+
+/* 704-610-76-05 */
+const Regex3 = /(\d{3})-\D(\d{3})-(\d{2})-(\d{2})/
+const result4 = ('My phone number is: 704-610-76-05.')
+console.log(Regex3.test(result4))
+
+/* 7046-1076-05*/
+const regex4 = /(\d{4})-(\d{4})-(\d{2})/
+const result5 = ('My phone number is: 7046-1076-05.')
+console.log(regex.test(result5))
+
+
+

@@ -29,15 +29,18 @@ button {
 
 .container {
   display: flex;
-  gap: 10px;
+  margin: 0;
+  margin-inline-start: 150px;
+  margin-inline-end: 150px;
 }
 
 .twitter {
-  height: 470;
-  width: 350;
+  height: 470px;
+  width: 350px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
+  margin: auto;
 }
 
 .icon {
@@ -46,21 +49,23 @@ button {
 }
 
 .instagram {
-  height: 470;
-  width: 350;
+  height: 470px;
+  width: 350px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
+  margin: auto;
   background-color: rgb(255, 0, 191);
   color: white;
 }
 
 .youtube {
-  height: 470;
-  width: 350;
+  height: 470px;
+  width: 350px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
+  margin: auto;
 }
 
 i {
