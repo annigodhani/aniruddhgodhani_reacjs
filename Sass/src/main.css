@@ -29,9 +29,6 @@ button {
 
 .container {
   display: flex;
-  margin: 0;
-  margin-inline-start: 150px;
-  margin-inline-end: 150px;
 }
 
 .twitter {
