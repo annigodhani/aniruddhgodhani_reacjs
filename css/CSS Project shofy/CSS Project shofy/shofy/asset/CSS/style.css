@@ -171,6 +171,7 @@
 .icon-2 {
    font-size: 20px;
    margin: 10px;
+   color: red;
 }
 
 .icon-3 {
@@ -467,9 +468,15 @@
    padding-left: 15%;
 }
 
-.watch img {
+.watch img { 
    max-width: 100%;
    height: auto;
+   /* margin-left: 100px; */
+}
+
+.watch img:hover {
+   transform: scale(1.2);
+   transition: 0.3s;
 }
 
 /*  MAIN PAR-1   (SECTION-1  ,SECTIONN-2) */
@@ -527,8 +534,8 @@
 }
 
 .headphone-image:hover img {
-   transform: scale(1.2);
-   transition: 0.3s;
+   transform: scale(1.4);
+   transition: 0.5s;
 }
 
 .headphone-text {
@@ -548,7 +555,7 @@
 }
 
 .Mobile-1-image:hover img {
-   transform: scale(1.2);
+   transform: scale(1.4);
    transition: 0.3s;
 }
 
@@ -569,7 +576,7 @@
 }
 
 .Pipes-1-image:hover img {
-   transform: scale(1.2);
+   transform: scale(1.4);
    transition: 0.3s;
 }
 
@@ -589,7 +596,7 @@
 }
 
 .SmartWatch-1-image:hover img {
-   transform: scale(1.2);
+   transform: scale(1.4);
    transition: 0.3s;
 }
 
@@ -610,7 +617,7 @@
 }
 
 .Bluetooth-1-image:hover img {
-   transform: scale(1.1);
+   transform: scale(1.4);
    transition: 0.1s;
 }
 
